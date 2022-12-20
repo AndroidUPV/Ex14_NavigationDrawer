@@ -1,0 +1,30 @@
+<!--
+  ~ Copyright (c) 2022
+  ~ David de Andrés and Juan Carlos Ruiz
+  ~ Development of apps for mobile devices
+  ~ Universitat Politècnica de València
+  -->
+
+<resources>
+    <string name="app_name">Ex14_NavigationDrawer</string>
+    <!-- Strings identifying each Fragment -->
+    <string name="first_fragment_title">First</string>
+    <string name="second_fragment_title">Second</string>
+    <string name="third_fragment_title">Third</string>
+    <string name="fourth_fragment_title">Fourth</string>
+    <string name="fifth_fragment_title">Fifth</string>
+    <string name="sixth_fragment_title">Sixth</string>
+    <string name="first_fragment_message">This is the FIRST fragment</string>
+    <string name="second_fragment_message">This is the SECOND fragment</string>
+    <string name="third_fragment_message">This is the THIRD fragment</string>
+    <string name="fourth_fragment_message">This is the FOURTH fragment</string>
+    <string name="fifth_fragment_message">This is the FIFTH fragment</string>
+    <string name="sixth_fragment_message">This is the SIXTH fragment</string>
+    <!-- Strings used in the header -->
+    <string name="header_title">Navigation drawer</string>
+    <string name="header_subtitle">Learn to navigate like a pro</string>
+    <string name="image_description">Application logo</string>
+    <!-- Strings used in menu -->
+    <string name="first_group_title">First group</string>
+    <string name="second_group_title">Second group</string>
+</resources>

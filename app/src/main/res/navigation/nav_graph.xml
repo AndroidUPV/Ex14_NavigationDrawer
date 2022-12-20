@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2022
+  ~ David de Andrés and Juan Carlos Ruiz
+  ~ Development of apps for mobile devices
+  ~ Universitat Politècnica de València
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="upv.dadm.ex14_navigationdrawer.ui.fragments.FirstFragment"
+        android:label="@string/first_fragment_title"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="upv.dadm.ex14_navigationdrawer.ui.fragments.SecondFragment"
+        android:label="@string/second_fragment_title" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="upv.dadm.ex14_navigationdrawer.ui.fragments.ThirdFragment"
+        android:label="@string/third_fragment_title" />
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="upv.dadm.ex14_navigationdrawer.ui.fragments.FourthFragment"
+        android:label="@string/fourth_fragment_title" />
+    <fragment
+        android:id="@+id/fifthFragment"
+        android:name="upv.dadm.ex14_navigationdrawer.ui.fragments.FifthFragment"
+        android:label="@string/fifth_fragment_title" />
+    <fragment
+        android:id="@+id/sixthFragment"
+        android:name="upv.dadm.ex14_navigationdrawer.ui.fragments.SixthFragment"
+        android:label="@string/sixth_fragment_title" />
+</navigation>
