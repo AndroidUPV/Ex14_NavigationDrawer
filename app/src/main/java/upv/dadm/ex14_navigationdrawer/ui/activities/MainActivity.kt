@@ -17,6 +17,10 @@ import androidx.navigation.ui.setupWithNavController
 import upv.dadm.ex14_navigationdrawer.R
 import upv.dadm.ex14_navigationdrawer.databinding.ActivityMainBinding
 
+/**
+ * Displays a Navigation Drawer that allows the navigation between six Fragments
+ * (they just show a message).
+ */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
