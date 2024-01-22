@@ -24,7 +24,7 @@
         android:layout_margin="8dp"
         android:text="@string/header_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="?attr/colorSecondary"
+        android:textColor="?attr/colorOnPrimary"
         app:layout_constraintBottom_toTopOf="@+id/tvHeaderSubtitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivHeader"
@@ -39,7 +39,7 @@
         android:layout_margin="8dp"
         android:text="@string/header_subtitle"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:textColor="@color/white"
+        android:textColor="?attr/colorOnPrimary"
         app:layout_constraintBottom_toBottomOf="@+id/ivHeader"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivHeader"
@@ -55,5 +55,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_foreground"
-        app:tint="?attr/colorSecondary" />
+        app:tint="?attr/colorOnPrimary" />
 </androidx.constraintlayout.widget.ConstraintLayout>
